@@ -1,0 +1,364 @@
+/*NORMALIZE*/
+body{
+    margin: 0%;
+    padding: 0%;
+    background-color: #dee2e6;
+    font-family: 'Roboto', sans-serif;
+
+}
+/*start of header*/
+.header {
+    background-color: #07294d;
+    line-height: 0px;
+}
+
+.list ul li {
+    display: inline-block;
+    margin-right: 45px;
+    margin-top: 0px;
+}
+
+.header ul li span {
+    color: #dee2e6;
+    font-size: 15px;
+    font-weight: 400px;
+    margin-left: 10px;
+}
+
+.list {
+    display: inline-block;
+    margin: 0px
+}
+
+.header p {
+    display: inline;
+    color: #dee2e6;
+    font-size: 15px;
+    font-weight: 400px;
+    margin-left: 40ch;
+}
+
+.logo {
+    border-bottom: 1px solid #cecece;
+
+}
+
+.cont {
+    position: absolute;
+    top: 10ch;
+    left: 65%;
+    line-height: 0.2px;
+
+}
+
+#logo {
+    padding: 5ch 5ch 10px 5ch;
+}
+
+.cont p {
+    font-size: 13px;
+    color: #8a8a8a;
+    line-height: 18px
+}
+
+#logo2 {
+    position: absolute;
+    top: 11ch;
+    left: 61%;
+}
+
+.cont span {
+    font-size: 18px;
+    color: #07294d;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+
+.main-btn {
+    position: absolute;
+    top: 9ch;
+    left: 80%;
+    display: inline-block;
+    font-weight: 500;
+    text-align: center;
+    vertical-align: middle;
+    border: 1px solid #ffc600;
+    padding: 0 35px;
+    text-decoration: none;
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    line-height: 50px;
+    border-radius: 5px;
+    color: #07294d;
+    background-color: #ffc600;
+}
+/*end of header*/
+/*start of nav */
+.content-nav {
+    background-color: white;
+    width: 100%;
+    line-height: 0.2;
+}
+
+.content-nav li a {
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    color: #07294d;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 15px 0;
+}
+.content-nav li a:active,
+.content-nav li a:hover {
+    color: #ffc600;
+
+}
+.home {
+    margin-left: 7ch;
+}
+.content-nav li {
+    margin: 3ch 2ch 2ch 5ch;
+    display: inline-block;
+}
+.icon{display: inline-block;}
+
+/*end of nav*/
+/*start of banner*/
+.banner{
+    background-image: url(../contact/page-banner-6.jpg);
+    background-size: cover;
+    background-position: 50% 50%;
+    height: 400px;
+    position: relative;
+    
+}
+.banner div {
+    height: 400px;
+    background-color: rgba(7, 41, 77, 0.7);
+
+}
+.banner div h1{
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-size: 50px;
+    padding: 100px 80px;
+}
+.banner div h1 a{
+    text-decoration: none;
+    font-size: 16px;
+    color:white;
+    
+}
+.banner div h1 a:hover{
+    color: #ffc600;
+}
+/*end of banner*/
+/*start of form*/
+.myform{
+    background-color: white;
+    margin-top: 22px;
+    width: 745px;
+    height: 550px;
+    margin-left: 40px;
+    border-radius: 5px;
+    position: absolute;
+}
+.myform .upper{
+    margin-left: 30px;
+    padding-top: 3px;
+}
+.myform  .upper h6{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    border-bottom:#ffc600 solid 3px;
+    width: 120px;
+}
+.myform h1{
+    font-size: 45px;
+    font-weight: bolder;
+    font-family: 'Montserrat', sans-serif;
+}
+input[type=text],
+input[type=email]{
+    display: inline;
+    width:41%;
+    border: 1px solid #a1a1a1;
+    padding: 20px 5px;
+    margin-left: 30px;
+    margin-bottom: 25px;
+    border-radius: 5px;
+}
+::placeholder{
+    font-size: 15px;
+}
+.myform textarea{
+    width: 90%;
+    box-sizing: border-box;
+    margin-left: 30px;
+    height: 100px;
+    border: 1px solid #a1a1a1;
+    border-radius: 5px;
+}
+.myform button{
+    width: 17%;
+    padding: 12px 2px;
+    text-align: center;
+    font-size: 19px;
+    margin-left: 30px;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: 1px solid #a1a1a1;
+    background-color: #ffc600;
+    color: rgb(7, 41, 77);
+}
+.myform button:hover{
+    background-color: rgb(7, 41, 77);
+    color: #ffc600;
+}
+/*end of the form*/
+/*start of sidebar*/
+.details{
+    background-color: white;
+    width: 455px;
+    height: 320px;
+    border-radius: 5px;
+    position: relative;
+    bottom: 103%;
+    left: 60%;
+    margin-top: 10px;
+}
+.details ul li .content{
+    overflow: hidden;
+}
+.details ul li{
+    list-style: none;
+    margin-left: 20px;
+    padding-top: 12px;
+}
+.details ul li .content i{
+    border-radius: 50%;
+    border: 1px solid #07294d;;
+    font-size: 20px;
+    padding: 14px;
+    color: #07294d;
+    margin-top: 20px;
+    position: absolute;
+}
+.details ul li  .content p{
+    position: relative;
+    top: 18%;
+    left: 20%;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    margin-top: 18px;
+}
+/*end of sidebar*/
+/*start of map*/
+.map{
+    position: relative;
+    bottom: 100%;
+    left: 60%;
+    margin-top: 10px;
+}
+.map iframe{
+    border-radius: 5px;
+}
+/*end of map*/
+/*start of footer*/
+.yu {
+    background-color: #07294d;
+    font-family: 'Roboto', sans-serif;
+    display: grid;
+    grid-template-columns: 2fr 0.7fr 0.4fr  0.6fr 1fr;
+    color: rgb(230, 226, 226);
+    margin-top: 100px;
+}
+ #pfooter{
+     margin: 10ch 2ch 10ch 10ch;
+ }
+ #pfooter p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+ }
+
+    .listfooter i{
+        width: 35px;
+        line-height: 35px;
+        font-size: 15px;
+        color: white;
+        border-radius: 50%;
+        text-align: center;
+        background-color: #021d3a;
+    }
+    .footer2{
+        margin:10ch 0ch 0ch 5ch;
+    }
+   .footer2 a{
+        color: #fff;
+        font-size: 15px;
+        text-decoration: none;
+        display: block;
+        line-height: 35px;
+   }
+   .footer2 i{
+    margin-right: 8px;
+    color: #ffc600;
+   }
+   .footer3 a{
+    color: #fff;
+    font-size: 15px;
+    text-decoration: none;
+    display: block;
+    line-height: 35px;
+}
+.footer3 i{
+margin-right: 8px;
+color: #ffc600;
+}
+.footer3{
+    margin-top: 15ch;
+    margin-left: 0px;
+
+}
+.yu h3,h6{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+}
+.footer4{
+    margin-top: 5ch;
+}
+.footer4 i{
+    font-size: 18px;
+    color: #ffc600;
+    margin-right:1ch;}
+
+.footer4 p{
+margin-top: 0px;
+
+}
+
+.footer4 .in{
+    margin-bottom: 3ch;
+    display: flex;
+}
+.end{
+    background-color: #021d3a;
+    height: 10ch;
+}
+.end a{
+    color: #007bff;
+    text-decoration: none;
+    margin: 5ch 9ch;
+    display: inline-block;
+
+}
+/*end of footer*/
+
+
+
+
+
